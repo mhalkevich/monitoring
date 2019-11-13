@@ -20,7 +20,7 @@ use Enqueue\Consumption\ProcessorExceptionExtensionInterface;
 use Enqueue\Consumption\Result;
 use Enqueue\Consumption\StartExtensionInterface;
 use Psr\Log\LoggerInterface;
-use Ramsey\Uuid\Uuid;
+use Rhumsaa\Uuid\Uuid;
 
 class ConsumerMonitoringExtension implements StartExtensionInterface, PreSubscribeExtensionInterface, PreConsumeExtensionInterface, EndExtensionInterface, ProcessorExceptionExtensionInterface, MessageReceivedExtensionInterface, MessageResultExtensionInterface
 {

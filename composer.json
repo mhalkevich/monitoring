@@ -8,7 +8,7 @@
     "require": {
         "php": "^7.1.3",
         "enqueue/enqueue": "^0.9",
-        "ramsey/uuid": "^3",
+        "ramsey/uuid": "^2",
         "enqueue/dsn": "^0.9"
     },
     "require-dev": {
